@@ -14,10 +14,10 @@ import com.ZP.commons.BaseClass;
 public class HomePage extends BaseClass{
 	BaseClass b=new BaseClass();
 
-	@FindBy(xpath="//input[@id=\"headerSearch\"]")
+	@FindBy(xpath="//1input[@id=\"headerSearch\"]")
 	WebElement search;
 
-	@FindBy(xpath="//span[@class='h-s-v1 h-srh-i abs i-b c-p']")
+	@FindBy(xpath="//1span[@class='h-s-v1 h-srh-i abs i-b c-p']")
 	WebElement searchBtn;
 
 	@FindBy(xpath="//div[@title='Honda SP 125 Ex-Showroom Price']")
